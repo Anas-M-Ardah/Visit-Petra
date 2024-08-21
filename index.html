@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Petra</title>
+    <link rel="shortcut icon" href="assets/images/petra.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+    <header>
+        <div class="logo">
+            <h1>Visit Petra</h1>
+            <img src="assets/images/petra.png" alt="Petra">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#chronological-timeline">About Petra</a></li>
+                <li><a href="#locations">Locations in Petra</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#tips">Tips</a></li>
+                <li><a href="#activities">Activities and Events</a></li>
+            </ul>
+        </nav>
+        <div class="weather">
+            <i class="fas fa-thermometer-half"></i>
+            <span id="temperature">Loading...</span>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    <!-- Home -->
+    <section id="home">
+        <video src="assets/images/petra.mp4" autoplay loop muted playsinline></video>
+        <div class="overlay"></div>
+        <div class="content">
+            <h1>Welcome to Petra</h1>
+            <p>Discover the ancient wonder of the world</p>
+            <a href="#chronological-timeline" class="cta-button">Explore Now</a>
+        </div>
+    </section>
+    <!-- About -->
+    <section id="chronological-timeline">
+        <div class="timeline-container">
+            <!-- Timeline events will be added here dynamically -->
+        </div>
+    </section>
+    <!-- locations -->
+    <section id="locations">
+        <h1>Locations in Petra</h1>
+        <div id="location-grid" class="location-grid">
+            <!-- Location cards will be dynamically inserted here -->
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Tickets & Services</h2>
+        <div class="tickets-container">
+            <h3>Entrance Tickets</h3>
+            <div class="ticket-info">
+                <h4>Accommodated Visitors (Staying at Least 1 Night in Jordan)</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Ticket Type</th>
+                            <th>Price (JD)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>One Day</td>
+                            <td>50</td>
+                        </tr>
+                        <tr>
+                            <td>Two Days</td>
+                            <td>55</td>
+                        </tr>
+                        <tr>
+                            <td>Three Days</td>
+                            <td>60</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>Accommodated visitors who visit Petra on the first day of arrival from the border will pay the border ticket fee (90 JD) and get a 40 JD refund the next day.</p>
+            </div>
+            <div class="ticket-info">
+                <h4>Non-Accommodated Visitors</h4>
+                <p>Entrance Ticket: 90 JD</p>
+            </div>
+            <div class="notes-container">
+                <h4>Ticket Notes</h4>
+                <ul class="notes-list">
+                    <li><i class="fas fa-info-circle"></i><span>Please submit a valid passport to the ticket office.</span></li>
+                    <li><i class="fas fa-money-bill-alt"></i><span>Tickets can be purchased by cash or credit card.</span></li>
+                    <li><i class="fas fa-child"></i><span>Children under 12 years old are free of charge.</span></li>
+                    <li><i class="fas fa-calendar-alt"></i><span>Two/three-day tickets are for consecutive visits.</span></li>
+                    <li><i class="fas fa-id-card"></i><span>Residents with a valid residence card (at least 1 year) pay 10 JD.</span></li>
+                    <li><i class="fas fa-ticket-alt"></i><span>Jordan Pass ticket does not include the Petra by Night show.</span></li>
+                    <li><i class="fas fa-route"></i><span>Jordan Pass ticket holders should submit their ticket to access the back road route.</span></li>
+                    <li><i class="fas fa-moon"></i><span>A daylight ticket is required to attend the Petra by Night show.</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="services-container">
+            <h3>Optional Services</h3>
+            <div class="service-info">
+                <h4>Tourist Guide Tickets</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Trail Name</th>
+                            <th>Distance (KM)</th>
+                            <th>Cost (JD)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Main Trail</td>
+                            <td>4</td>
+                            <td>50</td>
+                        </tr>
+                        <tr>
+                            <td>Main Trail + High Place of Sacrifice</td>
+                            <td>6</td>
+                            <td>85</td>
+                        </tr>
+                        <tr>
+                            <td>Main Trail + The Monastery</td>
+                            <td>8</td>
+                            <td>100</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>These prices apply for both groups and individuals.</p>
+            </div>
+            <div class="service-info">
+                <h4>Club Car Prices</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Trail Itinerary</th>
+                            <th>Distance (KM)</th>
+                            <th>Cost (JD/Person)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Visitor Center - Treasury</td>
+                            <td>4</td>
+                            <td>15</td>
+                        </tr>
+                        <tr>
+                            <td>Visitor Center - Treasury (Two Ways)</td>
+                            <td>8</td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <td>Petra Theater - Qaser Albint</td>
+                            <td>1</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Petra Theater - Qaser Albint (Two Ways)</td>
+                            <td>2</td>
+                            <td>15</td>
+                        </tr>
+                        <tr>
+                            <td>Petra Theater - Abo Oleg</td>
+                            <td>1.4</td>
+                            <td>15</td>
+                        </tr>
+                        <tr>
+                            <td>Petra Theater - Abo Oleg (Two Ways)</td>
+                            <td>2.8</td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <td>Qaser Albint - Abo Oleg</td>
+                            <td>0.4</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>Qaser Albint - Abo Oleg (Two Ways)</td>
+                            <td>0.8</td>
+                            <td>10</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="notes-container club-car-notes">
+                    <h4>Club Car Notes</h4>
+                    <ul class="notes-list">
+                        <li><i class="fas fa-car"></i><span>Club cars are available upon arrival, no need to book in advance.</span></li>
+                        <li><i class="fas fa-calendar-check"></i><span>You can make an appointment for return.</span></li>
+                        <li><i class="fas fa-users"></i><span>The club car can carry up to 5 people at a time.</span></li>
+                        <li><i class="fas fa-money-bill-alt"></i><span>Cash basis only, US Dollars and Jordanian Dinars accepted.</span></li>
+                        <li><i class="fas fa-child"></i><span>Children under 3 years old are free of charge.</span></li>
+                        <li><i class="fas fa-car-side"></i><span>Drop-off by 4x4 cars from Little Petra to the beginning of the Monastery trail costs 5 JOD per person (one-way), available for back and forth.</span></li>
+                        <li><i class="fas fa-clock"></i><span>Club cars are available every day from 7:00 AM to 3:30 PM.</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tips">
+        <h2>Tips for Visiting Petra</h2>
+        <div class="tips-container">
+            <div class="tabs">
+                <button class="tab-button active">Preparation</button>
+                <button class="tab-button">On-Site Behavior</button>
+                <button class="tab-button">Safety</button>
+            </div>
+            <div class="tab-content">
+                <div class="tab-pane active">
+                    <div class="tip">
+                        <h3><i class="fas fa-hiking"></i>Be Well Prepared</h3>
+                        <p>Wear sturdy hiking shoes, light and loose-fitting cotton clothing, and a hat or cap to protect yourself from the sun. Also, don't forget to bring plenty of water.</p>
+                    </div>
+                    <div class="tip">
+                        <h3><i class="fas fa-bus"></i>Use Only Licensed Transportation Tickets Inside Petra</h3>
+                        <p>Make sure to use only authorized forms of transport within Petra. Check at the Visitor Center to confirm what is allowed.</p>
+                    </div>
+                    <!-- Add more "Preparation" tips here -->
+                </div>
+                <div class="tab-pane">
+                    <div class="tip">
+                        <h3><i class="fas fa-monument"></i>Protect and Respect the Heritage Site</h3>
+                        <p>Petra is a precious archaeological site. Help preserve it by avoiding any actions that could damage the monuments or the natural environment.</p>
+                    </div>
+                    <div class="tip">
+                        <h3><i class="fas fa-shoe-prints"></i>Please Do Not Walk on the Monuments</h3>
+                        <p>Walking on the monuments can cause irreversible damage. Help us keep Petra pristine for future generations by staying on designated paths.</p>
+                    </div>
+                    <!-- Add more "On-Site Behavior" tips here -->
+                </div>
+                <div class="tab-pane">
+                    <div class="tip">
+                        <h3><i class="fas fa-first-aid"></i>In Case of Emergency, Find the Nearest Tourist Police or Park Ranger</h3>
+                        <p>Should you need help, locate the nearest tourist police officer or park ranger for assistance.</p>
+                    </div>
+                    <div class="tip">
+                        <h3><i class="fas fa-sun"></i>All Tourists Must Exit the Park Before Sunset</h3>
+                        <p>For your safety, ensure that you leave Petra before sunset as the park closes in the evening.</p>
+                    </div>
+                    <!-- Add more "Safety" tips here -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="activities">
+        <h2>Activities and Events</h2>
+        <div class="activities-container">
+            <div class="activities-list">
+                <div class="activity-item active">
+                    <h3>Petra by Night</h3>
+                </div>
+                <div class="activity-item">
+                    <h3>Hiking Trails</h3>
+                </div>
+                <div class="activity-item">
+                    <h3>The Siq Walk</h3>
+                </div>
+                <div class="activity-item">
+                    <h3>Exploring the Treasury</h3>
+                </div>
+                <div class="activity-item">
+                    <h3>Visiting the Monastery</h3>
+                </div>
+                <div class="activity-item">
+                    <h3>The Royal Tombs</h3>
+                </div>
+                <div class="activity-item">
+                    <h3>High Place of Sacrifice</h3>
+                </div>
+                <div class="activity-item">
+                    <h3>Petra Archaeological Museum</h3>
+                </div>
+                <div class="activity-item">
+                    <h3>Bedouin Hospitality</h3>
+                </div>
+                <div class="activity-item">
+                    <h3>The Great Temple</h3>
+                </div>
+                <div class="activity-item">
+                    <h3>Petra's Nabataean Theatre</h3>
+                </div>
+                <div class="activity-item">
+                    <h3>Horse and Camel Rides</h3>
+                </div>
+                <div class="activity-item">
+                    <h3>Petra Kitchen Cooking Class</h3>
+                </div>
+                <div class="activity-item">
+                    <h3>Annual Petra Marathon</h3>
+                </div>
+            </div>
+            <div class="activity-details">
+                <div class="activity-content">
+                    <h2>Petra by Night</h2>
+                    <p>Witness Petra's magical ambiance under the night sky, where the Siq and the Treasury are lit by thousands of candles. This event offers a serene and mystical experience with Bedouin music and storytelling.</p>
+                    <p><strong>Details:</strong></p>
+                    <ul>
+                        <li>When: Monday, Wednesday, and Thursday nights.</li>
+                        <li>Time: Starts at 8:30 PM, lasts for about 2 hours.</li>
+                        <li>Tickets: Available at the Visitor Center.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div id="event-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+            <img id="modal-image" src="" alt="">
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
