@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 "Petra's location at the crossroads of ancient trade routes made it a vital commercial hub, connecting the silk and spice routes of China, " +
                 "India, and southern Arabia with the markets of Greece, Rome, and the Mediterranean. The Nabataeans developed Petra into a thriving capital, " +
                 "with impressive rock-cut architecture, including tombs, temples, and monuments, that still stand today.",
-            image: 'D:/Bachelor Software HU/Internship at Clever Mind/Beginner Tasks/Task 9 (Practical Level)/Task 9/assets/images/founding-image.jpg'
+            image: '../assets/images/founding-image.jpg'
         },
         {
             year: '100 BC',
