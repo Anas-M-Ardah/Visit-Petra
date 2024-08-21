@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 "Petra's location at the crossroads of ancient trade routes made it a vital commercial hub, connecting the silk and spice routes of China, " +
                 "India, and southern Arabia with the markets of Greece, Rome, and the Mediterranean. The Nabataeans developed Petra into a thriving capital, " +
                 "with impressive rock-cut architecture, including tombs, temples, and monuments, that still stand today.",
-            image: '../assets/images/founding-image.jpg'
+            image: 'https://i.ibb.co/K9MtCDB/founding-image.jpg'
         },
         {
             year: '100 BC',
@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 "which linked the incense and spice trade routes of Arabia with the Mediterranean world. Caravans laden with goods from as far as India and " +
                 "China would pass through Petra, making it a bustling hub of commerce. The wealth generated from trade allowed the Nabataeans to construct " +
                 "elaborate public buildings and ornate tombs, showcasing their prosperity and influence.",
-            image: 'D:/Bachelor Software HU/Internship at Clever Mind/Beginner Tasks/Task 9 (Practical Level)/Task 9/assets/images/trading-center.jpg'
+            image: 'https://i.ibb.co/9tL7rvs/trading-center.jpg'
         },
         {
             year: '106 AD',
@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 "and while Petra continued to thrive as a trade center, its importance gradually diminished as the Romans shifted trade routes to more accessible " +
                 "areas. Roman influence brought new architectural styles to Petra, including the construction of a Roman-style theater and the transformation of " +
                 "existing Nabataean structures into Roman buildings.",
-            image: 'D:/Bachelor Software HU/Internship at Clever Mind/Beginner Tasks/Task 9 (Practical Level)/Task 9/assets/images/romans-attack.jpg'
+            image: 'https://i.ibb.co/1mtzj1Z/romans-attack.jpg'
         },
         {
             year: '363 AD',
@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 "In 363 AD, a devastating earthquake struck Petra, causing significant damage to many of its structures, including its sophisticated water " +
                 "management system. The earthquake marked the beginning of the city's decline. Although some parts of Petra were rebuilt, the city's " +
                 "strategic importance had already waned, and it gradually fell into obscurity as trade routes continued to shift.",
-            image: 'D:/Bachelor Software HU/Internship at Clever Mind/Beginner Tasks/Task 9 (Practical Level)/Task 9/assets/images/earthquake.jpg'
+            image: 'https://i.ibb.co/VML0HYZ/earthquake.jpg'
         },
         {
             year: '1812 AD',
@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 "rediscovered the city. His detailed accounts of the site sparked renewed interest in Petra, and it soon became a focus of archaeological " +
                 "exploration. Since its rediscovery, Petra has been recognized as one of the most important archaeological sites in the world, attracting " +
                 "visitors and scholars alike who are drawn to its rich history and breathtaking architecture.",
-            image: 'D:/Bachelor Software HU/Internship at Clever Mind/Beginner Tasks/Task 9 (Practical Level)/Task 9/assets/images/discovery-of-petra.jpg'
+            image: 'https://i.ibb.co/rpVbSWh/discovery-of-petra.jpg'
         }
     ];
     
