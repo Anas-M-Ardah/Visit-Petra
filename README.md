@@ -14,7 +14,6 @@ Welcome to the Visit Petra project! This website is designed to provide a compre
 - HTML5
 - CSS3
 - JavaScript
-- Responsive Design
 
 ## Installation
 
